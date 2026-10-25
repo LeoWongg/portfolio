@@ -10,6 +10,6 @@ Run from a local HTTP server, such as VS Code Live Server. JavaScript modules an
 
 GitHub Pages serves the root of the `main` branch. Relative module and image paths support the repository subdirectory.
 
-`lab4-demo.mp4` is a 47-second browser screen capture with synthetic narration. It shows the homepage's first three projects, live GitHub stats, all 12 entries on the Projects page, and theme switching with a refresh. The narration explains a takeaway about shared rendering functions and answers the question about clearing the container before rendering. The voice is computer generated, not a recording of Leo speaking. This file is provided for review; no course submission has been made.
+The Lab 4 submission requires the repository link, website link, and an MP4 screen recording of at most one minute. Record your own narration while showing the website and its JavaScript features. Share the most interesting thing you learned and answer one Think About It question from the lab. No course submission has been made.
 
 One question to discuss: why clear the container before rendering? Clearing removes the old cards so calling the rendering function again replaces them instead of creating duplicates.
