@@ -1,0 +1,240 @@
+:root {
+  color-scheme: light dark;
+  --color-accent: oklch(53% 0.14 210);
+  --border-color: oklch(50% 0.04 210 / 35%);
+  accent-color: var(--color-accent);
+  background: canvas;
+  color: canvastext;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100ch;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 1rem;
+  font: 100%/1.5 system-ui, sans-serif;
+}
+
+a {
+  color: var(--color-accent);
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible, select:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+nav a {
+  flex: 1;
+  padding: 0.65rem 0.25rem;
+  border-bottom: 0.25rem solid transparent;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a.current {
+  border-bottom-color: var(--color-accent);
+  font-weight: 600;
+}
+
+nav a:hover {
+  border-bottom-color: var(--color-accent);
+  background: color-mix(in oklch, var(--color-accent), canvas 90%);
+}
+
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}
+
+select {
+  font: inherit;
+  padding: 0.3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 7vw, 4rem);
+  margin: 0 0 1rem;
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+main > section {
+  margin-block: 3rem;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-block: 1rem 4rem;
+}
+
+.intro-text {
+  max-width: 45ch;
+  font-size: 1.1rem;
+}
+
+.eyebrow {
+  margin-block: 0 0.8rem;
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.profile-photo {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-heading h2 {
+  margin: 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15em), 1fr));
+  gap: 1rem 1.5rem;
+}
+
+.projects article {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  padding-block: 0.6rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.projects h2, .projects h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.projects img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.projects p {
+  margin: 0 0 0.75rem;
+}
+
+.project-year {
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.7;
+}
+
+.page-description {
+  max-width: 65ch;
+  margin-bottom: 2.5rem;
+}
+
+.github-section {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem 1rem;
+}
+
+#profile-stats dt {
+  grid-row: 1;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+#profile-stats dd {
+  grid-row: 2;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.resume section {
+  margin-block: 2.5rem;
+}
+
+.resume article {
+  border-left: 3px solid var(--border-color);
+  padding-left: 1.25rem;
+  margin-block: 2rem;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-block: 1rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding-inline: 1rem;
+  }
+
+  nav {
+    font-size: 0.85rem;
+  }
+
+  .intro {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .section-heading {
+    flex-wrap: wrap;
+  }
+
+  #profile-stats dl {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #profile-stats dt:nth-of-type(n+3) {
+    grid-row: 3;
+    margin-top: 1rem;
+  }
+
+  #profile-stats dd:nth-of-type(n+3) {
+    grid-row: 4;
+  }
+}

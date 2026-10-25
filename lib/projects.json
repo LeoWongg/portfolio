@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Lab 4: Dynamic Portfolio",
+    "year": 2026,
+    "image": "images/project.svg",
+    "imageAlt": "Illustrative teal bar chart",
+    "description": "A portfolio that loads project cards from JSON, reuses JavaScript functions across pages, and fetches live GitHub profile stats."
+  },
+  {
+    "title": "The Rise of Protein Obsession",
+    "year": 2026,
+    "image": "images/project.svg",
+    "imageAlt": "Illustrative chart, not results from the recipe analysis",
+    "description": "An analysis of Food.com recipes and user ratings, exploring whether protein-focused recipes receive different average ratings."
+  },
+  {
+    "title": "Responsive Portfolio Layout",
+    "year": 2026,
+    "image": "images/project.svg",
+    "imageAlt": "Illustrative teal bar chart",
+    "description": "The HTML and CSS foundation for this site, including a responsive project grid, shared navigation, and a saved theme preference."
+  },
+  {
+    "title": "Introduction to GitHub",
+    "year": 2025,
+    "image": "images/project.svg",
+    "description": "A GitHub Skills exercise covering the basics of repositories and working with GitHub."
+  },
+  {
+    "title": "Resolving Merge Conflicts",
+    "year": 2025,
+    "image": "images/project.svg",
+    "description": "A GitHub Skills exercise for practicing how to resolve conflicting changes."
+  },
+  {
+    "title": "Reviewing Pull Requests",
+    "year": 2025,
+    "image": "images/project.svg",
+    "description": "A GitHub Skills exercise for learning the pull request review workflow."
+  },
+  {
+    "title": "Expository Visualization (Placeholder)",
+    "year": 2026,
+    "image": "images/project.svg",
+    "description": "Placeholder for a class visualization assignment. The project description and preview will be added here."
+  },
+  {
+    "title": "Persuasive Visualization (Placeholder)",
+    "year": 2026,
+    "image": "images/project.svg",
+    "description": "Placeholder for a class assignment exploring how design choices affect the message of a visualization."
+  },
+  {
+    "title": "Interactive Visualization (Placeholder)",
+    "year": 2026,
+    "image": "images/project.svg",
+    "description": "Placeholder for a future interactive visualization assignment."
+  },
+  {
+    "title": "Data Exploration (Placeholder)",
+    "year": 2025,
+    "image": "images/project.svg",
+    "description": "Sample project entry for Lab 4. The year is example data, and this is not a completed project."
+  },
+  {
+    "title": "Chart Design Study (Placeholder)",
+    "year": 2025,
+    "image": "images/project.svg",
+    "description": "Sample project entry for Lab 4. The year is example data, and this is not a completed project."
+  },
+  {
+    "title": "Mapping Exercise (Placeholder)",
+    "year": 2024,
+    "image": "images/project.svg",
+    "description": "Sample project entry for Lab 4. The year is example data, and this is not a completed project."
+  }
+]
