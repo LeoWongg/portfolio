@@ -10,6 +10,3 @@ Run from a local HTTP server, such as VS Code Live Server. JavaScript modules an
 
 GitHub Pages serves the root of the `main` branch. Relative module and image paths support the repository subdirectory.
 
-The Lab 4 submission requires the repository link, website link, and an MP4 screen recording of at most one minute. Record your own narration while showing the website and its JavaScript features. Share the most interesting thing you learned and answer one Think About It question from the lab. No course submission has been made.
-
-One question to discuss: why clear the container before rendering? Clearing removes the old cards so calling the rendering function again replaces them instead of creating duplicates.
