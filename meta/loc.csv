@@ -607,20 +607,33 @@ meta/meta.js,194,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21
 meta/meta.js,195,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,2,35,Add interactive commit chart and file visualization
 meta/meta.js,196,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,5,Add interactive commit chart and file visualization
 meta/meta.js,197,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,130,Add interactive commit chart and file visualization
-meta/meta.js,198,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,38,Add interactive commit chart and file visualization
-meta/meta.js,199,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,59,Add interactive commit chart and file visualization
-meta/meta.js,200,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,2,35,Add interactive commit chart and file visualization
-meta/meta.js,201,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,3,72,Add interactive commit chart and file visualization
-meta/meta.js,202,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,3,41,Add interactive commit chart and file visualization
-meta/meta.js,203,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,3,45,Add interactive commit chart and file visualization
-meta/meta.js,204,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,2,7,Add interactive commit chart and file visualization
-meta/meta.js,205,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,74,Add interactive commit chart and file visualization
-meta/meta.js,206,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,0,1,Add interactive commit chart and file visualization
-meta/meta.js,207,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,0,0,Add interactive commit chart and file visualization
-meta/meta.js,208,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,0,23,Add interactive commit chart and file visualization
-meta/meta.js,209,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,23,Add interactive commit chart and file visualization
-meta/meta.js,210,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,120,Add interactive commit chart and file visualization
-meta/meta.js,211,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,0,3,Add interactive commit chart and file visualization
+meta/meta.js,198,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,1,19,Fix chart updates when scrolling quickly
+meta/meta.js,199,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,1,24,Fix chart updates when scrolling quickly
+meta/meta.js,200,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,78,Fix chart updates when scrolling quickly
+meta/meta.js,201,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,109,Fix chart updates when scrolling quickly
+meta/meta.js,202,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,34,Fix chart updates when scrolling quickly
+meta/meta.js,203,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,65,Fix chart updates when scrolling quickly
+meta/meta.js,204,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,39,Fix chart updates when scrolling quickly
+meta/meta.js,205,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,70,Fix chart updates when scrolling quickly
+meta/meta.js,206,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,39,Fix chart updates when scrolling quickly
+meta/meta.js,207,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,43,Fix chart updates when scrolling quickly
+meta/meta.js,208,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,1,3,Fix chart updates when scrolling quickly
+meta/meta.js,209,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,38,Add interactive commit chart and file visualization
+meta/meta.js,210,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,59,Add interactive commit chart and file visualization
+meta/meta.js,211,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,28,Fix chart updates when scrolling quickly
+meta/meta.js,212,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,1,27,Fix chart updates when scrolling quickly
+meta/meta.js,213,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,1,36,Fix chart updates when scrolling quickly
+meta/meta.js,214,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,29,Fix chart updates when scrolling quickly
+meta/meta.js,215,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,24,Fix chart updates when scrolling quickly
+meta/meta.js,216,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,2,72,Fix chart updates when scrolling quickly
+meta/meta.js,217,js,16fdd1ccd4799ddb025f563855c44b230ab99cf4,LeoWongg,2026-11-21,18:33:33,-0800,2026-11-21T18:33:33-08:00,1,24,Fix chart updates when scrolling quickly
+meta/meta.js,218,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,74,Add interactive commit chart and file visualization
+meta/meta.js,219,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,0,1,Add interactive commit chart and file visualization
+meta/meta.js,220,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,0,0,Add interactive commit chart and file visualization
+meta/meta.js,221,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,0,23,Add interactive commit chart and file visualization
+meta/meta.js,222,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,23,Add interactive commit chart and file visualization
+meta/meta.js,223,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,1,120,Add interactive commit chart and file visualization
+meta/meta.js,224,js,80fa57f33df619048a97e7b04c59fc0d3a29dfc6,LeoWongg,2026-11-21,18:29:58,-0800,2026-11-21T18:29:58-08:00,0,3,Add interactive commit chart and file visualization
 projects/index.html,1,html,d70ccd2c9f1fbae8cdd2e489c186d33b5a06b9a0,Leo Wong,2026-10-24,20:22:02,-0700,2026-10-24T20:22:02-07:00,0,15,Build Lab 4 portfolio with JSON projects and GitHub stats
 projects/index.html,2,html,d70ccd2c9f1fbae8cdd2e489c186d33b5a06b9a0,Leo Wong,2026-10-24,20:22:02,-0700,2026-10-24T20:22:02-07:00,0,16,Build Lab 4 portfolio with JSON projects and GitHub stats
 projects/index.html,3,html,d70ccd2c9f1fbae8cdd2e489c186d33b5a06b9a0,Leo Wong,2026-10-24,20:22:02,-0700,2026-10-24T20:22:02-07:00,0,6,Build Lab 4 portfolio with JSON projects and GitHub stats
