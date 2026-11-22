@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta: How this portfolio grew</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="meta.css">
+  <script src="../global.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/scrollama@3.2.0/build/scrollama.js" defer></script>
+  <script src="meta.js" type="module"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Behind the portfolio</p>
+      <h1>How this site grew</h1>
+      <p class="page-description">Scroll through the commits to see the code build up. Each dot is a commit. Bigger dots mean more lines of the current code were last changed in that commit.</p>
+    </header>
+    <p id="load-status" role="status">Loading repository history…</p>
+    <div id="scrolly-1" hidden>
+      <div id="scatter-story" aria-label="Commit history"></div>
+      <section id="scatter-plot" aria-label="Commits over time">
+        <h2>Commits over time</h2>
+        <label class="time-control" for="commit-progress">Show commits until:
+          <time id="commit-time"></time>
+          <input id="commit-progress" type="range" min="0" max="100" step="0.01" value="100">
+        </label>
+        <dl id="stats" aria-label="Visible repository statistics"></dl>
+        <div id="chart"></div>
+        <p class="chart-note">Horizontal position: date. Vertical position: local hour of day. Drag across dots to select commits, or hover or focus a dot for details.</p>
+        <p id="selection-count" role="status">No commits selected</p>
+        <div id="language-breakdown"></div>
+      </section>
+    </div>
+    <section id="file-section" hidden aria-labelledby="file-heading">
+      <h2 id="file-heading">Which files have the most lines?</h2>
+      <p>One dot represents one line of code. Files are sorted from most lines to fewest. The colors show the file type.</p>
+      <label for="file-progress">Explore files through time:</label>
+      <input id="file-progress" type="range" min="0" max="100" step="0.01" value="100">
+      <time id="file-time"></time>
+      <div id="file-legend" aria-label="File type legend"></div>
+      <p id="file-summary" role="status"></p>
+      <dl id="files"></dl>
+    </section>
+    <section class="data-note">
+      <h2>About these numbers</h2>
+      <p>This uses Git blame on the portfolio's current source files. A line belongs to the commit that last changed it. Moving backward hides lines changed later; it does not recreate deleted code or every earlier version of a file. Third-party libraries, generated data, images, and videos are excluded.</p>
+      <p>Dates use each commit's recorded time zone. Commit links open the source changes on GitHub.</p>
+    </section>
+    <noscript>Please enable JavaScript to explore the repository history.</noscript>
+  </main>
+  <div id="commit-tooltip" class="tooltip" role="tooltip" hidden></div>
+  <footer>Leo Wong · DSC 106 · Lab 8</footer>
+</body>
+</html>
