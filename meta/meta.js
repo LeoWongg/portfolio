@@ -195,13 +195,26 @@ async function main() {
     steps.classed('active', false);
   });
   document.querySelector('#file-progress').addEventListener('input', event => setFileTime(timeScale.invert(+event.target.value)));
+  let activeStepId;
+  function syncStory() {
+    // Large scroll jumps can cross an entire step between observer callbacks.
+    const passed = steps.nodes().filter(element => element.getBoundingClientRect().top <= innerHeight * 0.6);
+    const element = passed.at(-1);
+    if (!element || element.__data__.id === activeStepId) return;
+    activeStepId = element.__data__.id;
+    steps.classed('active', function () { return this === element; });
+    setTime(element.__data__.datetime);
+    setFileTime(element.__data__.datetime);
+  }
   const scroller = window.scrollama();
   scroller.setup({ step: '#scrolly-1 .step', offset: 0.6 })
-    .onStepEnter(({ element }) => {
-      steps.classed('active', function () { return this === element; });
-      setTime(element.__data__.datetime);
-      setFileTime(element.__data__.datetime);
-    });
+    .onStepEnter(syncStory);
+  let framePending = false;
+  addEventListener('scroll', () => {
+    if (framePending) return;
+    framePending = true;
+    requestAnimationFrame(() => { framePending = false; syncStory(); });
+  }, { passive: true });
   addEventListener('resize', () => { scroller.resize(); hideTooltip(); });
 }
 
